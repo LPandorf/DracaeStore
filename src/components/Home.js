@@ -6,7 +6,6 @@ export default function Home() {
     <>
         <Navbar/>
         <Wrapper>
-            
         Home
         </Wrapper>
     </>
@@ -14,8 +13,9 @@ export default function Home() {
 }
 
 const Wrapper = styled.div`
+  margin-top: 100px;
   color: black;
-  background-color: crimson;
+  background-color: white;
   top: 0;
   left: 0;
   padding: 20px;
